@@ -10,6 +10,9 @@ import { PhotoComponent } from './photo/photo.component';
 import { ArtistsComponent } from './artists/artists.component';
 import { ContainerComponent } from './container/container.component';
 import { SliderComponent } from './slider/slider.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel-ver2';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +23,16 @@ import { SliderComponent } from './slider/slider.component';
     PhotoComponent,
     ArtistsComponent,
     ContainerComponent,
-    SliderComponent
+    SliderComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SlickCarouselModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

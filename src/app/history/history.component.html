@@ -1,63 +1,59 @@
 <div class="d-flex w-100 flex-column">
-    <!-- Main Block -->
-    <div
-      class="main d-flex w-100 flex-column text-center align-items-center p-3 gap-5 mb-5"
-    >
-      <h1>Будинок «Слово»</h1>
-      <p>
-        Унікальний будинок у Харкові, де жили й працювали митці, які творили
-        українську культуру в найтемніші часи XX століття. <br />
-        1926–1927
+  <div
+    class="main d-flex w-100 flex-column text-center align-items-center p-3 gap-5 mb-5"
+  >
+    <h1>Будинок «Слово»</h1>
+    <p>
+      Унікальний будинок у Харкові, де жили й працювали митці, які творили
+      українську культуру в найтемніші часи XX століття. <br />
+      1926–1927
+    </p>
+    <img class="img-fluid" src="assets/images/house.jpg" alt="house" />
+  </div>
+
+  <div
+    class="second-block w-100 container d-flex flex-column align-items-center gap-5"
+  >
+    <div class="container w-100 text-left">
+      <p class="text">
+        У 1920-х роках художник Михайло Бойчук казав: «Ми маємо бути щасливими,
+        що переживаємо початок весни мистецтва». Згодом ці часи прозвуть
+        «ренесансом»: зліт модернізму, розмаїття течій, численні літературні
+        угруповання, розвиток кіно, театру, живопису…
       </p>
-      <img class="img-fluid" src="assets/images/house.jpg" alt="house" />
     </div>
-  
-    <!-- Second Block -->
-    <div
-      class="second-block w-100 container d-flex flex-column align-items-center gap-5"
-    >
-      <div class="container w-100 text-left">
-        <p class="text">
-          У 1920-х роках художник Михайло Бойчук казав: «Ми маємо бути щасливими,
-          що переживаємо початок весни мистецтва». Згодом ці часи прозвуть
-          «ренесансом»: зліт модернізму, розмаїття течій, численні літературні
-          угруповання, розвиток кіно, театру, живопису…
+
+    <div class="container d-flex flex-column flex-md-row">
+      <div class="photo w-100">
+        <img
+          class="img-fluid"
+          src="assets/images/picture_2.jpg"
+          alt="picture"
+        />
+      </div>
+      <div
+        class="description d-flex flex-column justify-content-center gap-3 p-3"
+      >
+        <p class="text2">
+          Та на зміну українській весні прийшла радянська табірна зима. У 30-х
+          митців одне за одним арештовують, звинувачують у «націоналізмі»,
+          засилають і фізично знищують. Відродження стає «Розстріляним», а
+          пам’ять про цей період берегтиме будинок «Слово» — місце, де колись
+          гуртувалися українські таланти, вбиті радянською владою.
+        </p>
+        <p class="text2">Будинок «Слово» — унікальне явище.</p>
+        <p class="text2">
+          Ну де ще є такий дім, в якому під одним дахом жили б десятки чільних
+          митців доби? Все почалося у 1920-х, коли більшовики вдалися до
+          українізації та зміцнення своїх позицій. Українізація робітництва,
+          державного апарату, культури — все, як-то кажуть, для вас. Тож коли
+          українські письменники попросили владу збудувати кооперативний
+          будинок, ідею радо прийняли.
         </p>
       </div>
-  
-      <!-- Image with description -->
-      <div class="container d-flex flex-column flex-md-row">
-        <div class="photo w-100">
-          <img
-            class="img-fluid"
-            src="assets/images/picture_2.jpg"
-            alt="picture"
-          />
-        </div>
-        <div
-          class="description d-flex flex-column justify-content-center gap-3 p-3"
-        >
-          <p class="text2">
-            Та на зміну українській весні прийшла радянська табірна зима. У 30-х
-            митців одне за одним арештовують, звинувачують у «націоналізмі»,
-            засилають і фізично знищують. Відродження стає «Розстріляним», а
-            пам’ять про цей період берегтиме будинок «Слово» — місце, де колись
-            гуртувалися українські таланти, вбиті радянською владою.
-          </p>
-          <p class="text2">Будинок «Слово» — унікальне явище.</p>
-          <p class="text2">
-            Ну де ще є такий дім, в якому під одним дахом жили б десятки чільних
-            митців доби? Все почалося у 1920-х, коли більшовики вдалися до
-            українізації та зміцнення своїх позицій. Українізація робітництва,
-            державного апарату, культури — все, як-то кажуть, для вас. Тож коли
-            українські письменники попросили владу збудувати кооперативний
-            будинок, ідею радо прийняли.
-          </p>
-        </div>
-      </div>
     </div>
-    <app-container [items]="items"></app-container>
-    <img class="w-100" src="../../assets/images/house1.png" alt="house1">
-    <app-container [items]="items1"></app-container>
   </div>
-  
+  <app-container [items]="items"></app-container>
+  <img class="w-100" src="../../assets/images/house1.png" alt="house1" />
+  <app-container [items]="items1"></app-container>
+</div>

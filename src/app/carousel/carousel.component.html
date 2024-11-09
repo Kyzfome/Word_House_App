@@ -1,0 +1,26 @@
+<div class="carousel">
+  <div
+    *ngIf="items.length"
+    [ngClass]="{ 'fade-out': isFading }"
+    class="profile-card"
+  >
+    <img
+      [src]="items[currentIndex].url"
+      alt="{{ items[currentIndex].title }}"
+      class="profile-image"
+    />
+    <div class="profile-content">
+      <h2 class="profile-title">{{ items[currentIndex].title }}</h2>
+      <p class="profile-description">{{ items[currentIndex].text }}</p>
+    </div>
+  </div>
+
+  <div class="carousel-indicators">
+    <button
+      *ngFor="let item of items; let i = index"
+      class="indicator"
+      [class.active]="i === currentIndex"
+      (click)="setCurrentSlide(i)"
+    ></button>
+  </div>
+</div>

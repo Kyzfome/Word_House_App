@@ -1,0 +1,92 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.profile-card {
+  display: flex;
+  border: 2px solid #2f4f6f;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.profile-image {
+  width: 350px;
+  height: auto;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.profile-content {
+  flex: 1;
+}
+
+.profile-title {
+  font-size: 2em;
+  margin: 0;
+  font-weight: bold;
+  color: #2f4f6f;
+}
+
+.profile-description {
+  font-size: 1.5em;
+  line-height: 1.5;
+  color: #333;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #bbb;
+  border: none;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: #2f4f6f;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.carousel-button.left {
+  left: 10px;
+}
+
+.carousel-button.right {
+  right: 10px;
+}
+
+.profile-card {
+  display: flex;
+  border: 2px solid #2f4f6f;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.profile-card.fade-out {
+  opacity: 0;
+}
