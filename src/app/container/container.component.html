@@ -1,6 +1,6 @@
 <div class="container w-100" *ngFor="let item of items; let i = index">
   <hr *ngIf="items.length !== 1" class="w-100 mb-4" />
-  <div class="d-flex gap-3 align-items-center mb-3">
+  <div class="d-flex container-content gap-3 align-items-center mb-3">
     <div class="image-container w-100">
       <img [src]="item.url" alt="photo" />
     </div>

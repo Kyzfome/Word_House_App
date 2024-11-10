@@ -15,7 +15,7 @@
 
 .profile-image {
   width: 350px;
-  height: auto;
+  height: auto;  
   border-radius: 4px;
   margin-right: 20px;
 }
@@ -90,3 +90,60 @@
 .profile-card.fade-out {
   opacity: 0;
 }
+
+@media (max-width: 768px) {
+  .carousel {
+    width: 90%;
+  }
+
+  .profile-card {
+    flex-direction: column; 
+    padding: 15px;
+  }
+
+  .profile-image {
+    width: 100%; 
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+
+  .profile-title {
+    font-size: 1.5em; 
+  }
+
+  .profile-description {
+    font-size: 1.2em; 
+  }
+
+  .carousel-indicators {
+    margin-top: 10px;
+  }
+
+  .indicator {
+    width: 8px;
+    height: 8px;
+    margin: 0 3px;
+  }
+
+  .carousel-button {
+    font-size: 1.5rem;
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-card {
+    padding: 10px;
+  }
+
+  .profile-title {
+    font-size: 1.2em;
+  }
+
+  .profile-description {
+    font-size: 1em;
+  }
+}
+
