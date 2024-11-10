@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class FilmComponent {
   items = [
     {
-      url: '../../assets/images/film_1.png',
+      url: '../../assets/images/film_1.webp',
       description:
         'У фільмі розповідається історія українських письменників доби "розстріляного відродження", яких зібрали в одному будинку, щоби вони працювали на благо радянської системи.',
       description2:
@@ -18,7 +18,7 @@ export class FilmComponent {
 
   items1 = [
     {
-      url: '../../assets/images/film_2.png',
+      url: '../../assets/images/film_2.webp',
       description:
         'Пізніше до письменників підселили невідомого молодого автора Володимира Акімова, після появи якого в будинку почалися дивні події.',
       description2:
@@ -30,7 +30,7 @@ export class FilmComponent {
 
   items2 = [
     {
-      url: '../../assets/images/film_3.png',
+      url: '../../assets/images/film_3.webp',
       title:
         '7 березня 2022 року будинок пошкоджено внаслідок ракетно-артилерійського обстрілу російськими військами. Наразі в одній з квартир діє літературна резиденція.',
     },
